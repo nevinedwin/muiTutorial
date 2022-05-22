@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { MuiAccordion, MuiAutoComplete, MuiAvatar, MuiBadge, MuiBottomNavigation, MuiBreadCrumbs, MuiButton, MuiCard, MuiCheckbox, MuiChip, MuiDrawer, MuiImageList, MuiLayout, MuiLink, MuiList, MuiNavbar, MuiRadio, MuiRating, MuiSelect, MuiSpeedDial, MuiSwitch, MuiTypography, MultiText } from './components';
+import { MuiAccordion, MuiAlert, MuiAutoComplete, MuiAvatar, MuiBadge, MuiBottomNavigation, MuiBreadCrumbs, MuiButton, MuiCard, MuiCheckbox, MuiChip, MuiDialogue, MuiDrawer, MuiImageList, MuiLayout, MuiLink, MuiList, MuiNavbar, MuiProgress, MuiRadio, MuiRating, MuiSelect, MuiSkeleton, MuiSnackbar, MuiSpeedDial, MuiSwitch, MuiTable, MuiToolTip, MuiTypography, MultiText } from './components';
 
 function App() {
   return (
@@ -27,7 +27,14 @@ function App() {
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
       {/* <MuiList /> */}
-      <MuiChip />
+      {/* <MuiChip /> */}
+      {/* <MuiToolTip /> */}
+      {/* <MuiTable /> */}
+      {/* <MuiAlert /> */}
+      {/* <MuiSnackbar /> */}
+      {/* <MuiDialogue /> */}
+      {/* <MuiProgress /> */}
+      <MuiSkeleton />
     </div>
   );
 }
